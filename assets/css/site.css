@@ -3,13 +3,12 @@
    Colors and fonts come only from the WDMCS brand guide (Activities system). */
 :root {
   --orange: #FF6720;      /* PMS 165 — WDMCS Orange */
-  --ink: #231F20;         /* School black as printed in the guide */
-  --black: #000000;
+  --ink: #000000;         /* Black — web color from the brand guide */
   --paper: #FFFFFF;
-  --stone: #F1F0F0;       /* 25% grayscale family, warmed toward ink */
-  --rule: #D9D7D7;
-  --graphite: #4A4647;    /* 75% black */
-  --muted: #5F5B5C;
+  --stone: #F2F2F2;       /* light tint of black (grayscale spectrum) */
+  --rule: #D9D9D9;        /* light tint of black */
+  --graphite: #404040;    /* 75% black */
+  --muted: #404040;       /* 75% black */
 
   --display: "Roboto", "Arial Black", Arial, sans-serif;   /* approved display: Roboto Black */
   --body: "Source Sans 3", "Source Sans Pro", Arial, sans-serif; /* approved copy font */
@@ -97,7 +96,7 @@ p { margin: 0; max-width: 65ch; }
 }
 .hero .wrap { position: relative; display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: center; gap: 2rem; padding-block: clamp(3rem, 8vw, 6rem); }
 .hero-copy { display: grid; gap: 1.25rem; min-width: 0; }
-.hero .lede { color: #E4E2E2; }
+.hero .lede { color: #FFFFFF; }
 .hero-mark { justify-self: center; width: min(320px, 70%); filter: drop-shadow(0 12px 30px rgba(0,0,0,.35)); }
 .hero-sm .wrap { grid-template-columns: 1fr; padding-block: clamp(2.5rem, 6vw, 4rem); }
 .hero-sm::before { background: linear-gradient(118deg, transparent 0 74%, var(--orange) 74% 84%, var(--paper) 84% 84.5%, transparent 84.5%); }
@@ -135,7 +134,7 @@ p { margin: 0; max-width: 65ch; }
 .stamp { background: var(--ink); color: var(--paper); text-align: center; border-radius: var(--radius); overflow: hidden; font-family: var(--display); }
 .stamp .m { display: block; background: var(--orange); color: var(--ink); font-weight: 700; font-size: .75rem; letter-spacing: .2em; padding: .3rem 0; text-transform: uppercase; }
 .stamp .d { display: block; font-weight: 900; font-size: 2.2rem; line-height: 1; padding: .45rem 0 .1rem; font-variant-numeric: tabular-nums; }
-.stamp .w { display: block; font-size: .72rem; letter-spacing: .18em; padding-bottom: .45rem; color: #CFCCCC; text-transform: uppercase; }
+.stamp .w { display: block; font-size: .72rem; letter-spacing: .18em; padding-bottom: .45rem; color: #BFBFBF; text-transform: uppercase; }
 .event-body { display: grid; gap: .35rem; min-width: 0; }
 .event-meta { display: flex; flex-wrap: wrap; gap: .25rem 1rem; color: var(--muted); font-size: 1rem; font-weight: 600; }
 .event-actions { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: .25rem; }
@@ -182,7 +181,7 @@ p { margin: 0; max-width: 65ch; }
 /* ---------- Ways to help ---------- */
 .way { display: grid; gap: .75rem; align-content: start; }
 .way .num { font: 900 2.6rem var(--display); line-height: 1; color: var(--orange); }
-.band-ink .way p { color: #E4E2E2; }
+.band-ink .way p { color: #FFFFFF; }
 .signup-list { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
 .signup-list a { display: flex; justify-content: space-between; gap: 1rem; padding: .9rem 1rem; background: var(--stone); border-radius: var(--radius); text-decoration: none; font-weight: 600; }
 .signup-list a:hover { background: var(--orange); }
@@ -208,6 +207,6 @@ details.faq p { margin-top: .75rem; }
 .site-footer img { width: 84px; }
 .site-footer h2 { font-size: .8rem; letter-spacing: .3em; color: var(--orange); margin-bottom: .75rem; }
 .site-footer ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .35rem; }
-.site-footer .fine { grid-column: 1 / -1; border-top: 1px solid var(--graphite); padding-top: 1.25rem; font-size: .9rem; color: #BDB9BA; max-width: none; }
+.site-footer .fine { grid-column: 1 / -1; border-top: 1px solid var(--graphite); padding-top: 1.25rem; font-size: .9rem; color: #BFBFBF; max-width: none; }
 @media (max-width: 760px) { .site-footer .wrap { grid-template-columns: 1fr; } }
 .soon .tag, .event-body .tag { justify-self: start; }
