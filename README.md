@@ -12,7 +12,7 @@ Almost every update is a change to one file in `data/`. Edit it on GitHub (penci
 | Committees, chairs, descriptions | `data/committees.json` | `"chairs": []` shows a "Chair needed" badge and lists it on Get Involved. |
 | Executive board | `data/board.json` | |
 | Volunteer sign-ups | `data/signups.json` | Add `{ "title": "Fun Run volunteers", "when": "Oct 24", "url": "https://www.signupgenius.com/..." }`. Remove it when it closes. |
-| Donate / spirit wear / volunteer form links | `data/site.json` → `links` | Paste a Square payment link into `donate` and the Donate button turns on. A Google Form URL in `volunteerForm` replaces the "Email us" button. |
+| Donate / spirit wear / volunteer form links | `data/site.json` → `links` | `donate` holds the Zeffy donation page link; clear it to hide the Donate button. A Google Form URL in `volunteerForm` replaces the "Email us" button. |
 | PTO documents | `data/resources.json` | Put PDFs in `files/` and set `"url": "files/bylaws.pdf"`, or paste a Google Drive share link. |
 
 JSON is picky: every item except the last in a list needs a comma after it, and text goes in double quotes. If a section shows "could not load", paste the file into jsonlint.com to find the typo.
