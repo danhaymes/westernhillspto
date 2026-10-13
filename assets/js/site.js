@@ -154,6 +154,9 @@
     $all("[data-site-facebook]").forEach(function (el) { el.href = site.facebook; });
     $all("[data-site-school]").forEach(function (el) { el.href = site.school.website; });
     $all("[data-site-district]").forEach(function (el) { el.href = site.school.districtWebsite; });
+    $all("[data-site-donate]").forEach(function (el) {
+      if (site.links && site.links.donate) { el.href = site.links.donate; } else { el.hidden = true; }
+    });
     $all("[data-site-address]").forEach(function (el) { el.textContent = site.school.address; });
   }
 
