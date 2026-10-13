@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Get Involved | Western Hills Elementary PTO</title>
+  <meta name="description" content="Volunteer, join a committee, come to a meeting, or donate to the Western Hills Elementary PTO.">
+  <meta property="og:title" content="Get Involved | Western Hills Elementary PTO">
+  <meta property="og:description" content="Volunteer, join a committee, come to a meeting, or donate to the Western Hills Elementary PTO.">
+  <meta property="og:image" content="https://westernhillspto.com/assets/img/pto-logo.png">
+  <meta name="theme-color" content="#231F20">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="256x256" href="assets/img/favicon-256.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body data-page="involved">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="Western Hills Elementary PTO home">
+        <img src="assets/img/pto-logo.png" alt="Western Hills PTO" width="640" height="276">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav class="nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="committees.html">Committees</a></li>
+          <li><a href="get-involved.html" aria-current="page">Get Involved</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-sm on-ink">
+      <div class="wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">Every family is welcome</p>
+          <h1>Get Involved</h1>
+          <p class="lede">There's no minimum commitment. Pick whatever fits your schedule, whether that's one hour this year or a committee you lead.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid grid-2">
+        <div class="way">
+          <span class="num">1</span>
+          <h2>Volunteer at an event</h2>
+          <p>We post sign-ups for each event as it gets close. Grab a shift that works for you.</p>
+          <div id="signups"><p class="empty">Loading sign-ups…</p></div>
+        </div>
+        <div class="way">
+          <span class="num">2</span>
+          <h2>Tell us you want to help</h2>
+          <p>Not sure where you fit? Send us a note with what you like doing and when you're free, and we'll reach out when something matches.</p>
+          <div class="btn-row"><a class="btn btn-orange" id="volunteer-btn" data-site-email data-subject="I'd like to volunteer" href="mailto:westernhillspto@gmail.com">Email us to volunteer</a></div>
+          <div class="copyline"><code>westernhillspto@gmail.com</code><button class="copybtn" type="button" data-copy-email data-copy="westernhillspto@gmail.com">Copy</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band-stone">
+      <div class="wrap grid grid-2">
+        <div class="way">
+          <span class="num">3</span>
+          <h2>Join a committee</h2>
+          <p>Committees plan our events and programs. These spots are open right now:</p>
+          <ul id="open-chairs"></ul>
+          <p><a href="committees.html">See all committees</a></p>
+        </div>
+        <div class="way">
+          <span class="num">4</span>
+          <h2>Come to a meeting</h2>
+          <p>General meetings are open to everyone and start at 6:00 PM at Western Hills Elementary.</p>
+          <p><strong>Next meeting:</strong> <span id="meeting-when">Loading…</span></p>
+          <p><a href="events.html">All meeting dates</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section band-ink on-ink">
+      <div class="wrap grid grid-2">
+        <div class="way">
+          <span class="num">5</span>
+          <h2>Donate</h2>
+          <p>Every dollar goes back to Western Hills students and staff. Payments are handled securely by Square.</p>
+          <div class="btn-row"><a class="btn btn-orange" id="donate-btn" href="#" aria-disabled="true">Donate with Square</a></div>
+          <p id="donate-note" class="empty" style="color:#BDB9BA">Online donations are coming soon.</p>
+        </div>
+        <div class="way">
+          <span class="num">6</span>
+          <h2>Wear your Tiger pride</h2>
+          <p id="spirit-msg">Spirit wear sales pop up a few times a year.</p>
+          <div class="btn-row">
+            <a class="btn btn-orange" id="spirit-btn" href="#" target="_blank" rel="noopener" hidden>Shop spirit wear</a>
+            <a class="btn btn-ghost" data-site-facebook href="https://www.facebook.com/WesternHillsPTO" target="_blank" rel="noopener">Follow on Facebook</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <img src="assets/img/paw-full-color.png" alt="" width="522" height="560">
+      <div>
+        <h2>Western Hills Elementary PTO</h2>
+        <ul>
+          <li><a data-site-email data-show-text href="mailto:westernhillspto@gmail.com">westernhillspto@gmail.com</a></li>
+          <li><a data-site-facebook href="https://www.facebook.com/WesternHillsPTO" target="_blank" rel="noopener">Facebook: Western Hills PTO</a></li>
+          <li data-site-address>600 39th Street, West Des Moines, IA 50265</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="events.html">Events &amp; meetings</a></li>
+          <li><a href="get-involved.html">Volunteer or donate</a></li>
+          <li><a data-site-school href="https://westernhills.wdmcs.org/" target="_blank" rel="noopener">Western Hills Elementary website</a></li>
+          <li><a data-site-district href="https://www.wdmcs.org/" target="_blank" rel="noopener">West Des Moines Community Schools</a></li>
+        </ul>
+      </div>
+      <p class="fine">&copy; <span id="year">2026</span> Western Hills Elementary PTO. The Tiger Paw logo is a trademark of West Des Moines Community Schools and is used with permission.</p>
+    </div>
+  </footer>
+</body>
+</html>

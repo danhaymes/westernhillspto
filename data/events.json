@@ -1,0 +1,74 @@
+{
+  "_howTo": "Add an event by copying one block. date = YYYY-MM-DD, time = 24-hour HH:MM (or leave blank for all-day). Leave date blank if it isn't set yet and it will show under 'Dates coming soon'. category: meeting, family, fundraiser, students, or staff.",
+  "events": [
+    {
+      "title": "PTO General Meeting",
+      "date": "2026-10-05",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "Hear what's coming up, share ideas, and meet the board. Everyone is welcome.",
+      "link": ""
+    },
+    {
+      "title": "PTO General Meeting",
+      "date": "2026-11-09",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "Hear what's coming up, share ideas, and meet the board. Everyone is welcome.",
+      "link": ""
+    },
+    {
+      "title": "PTO General Meeting",
+      "date": "2027-01-11",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "Hear what's coming up, share ideas, and meet the board. Everyone is welcome.",
+      "link": ""
+    },
+    {
+      "title": "PTO General Meeting",
+      "date": "2027-02-01",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "Hear what's coming up, share ideas, and meet the board. Everyone is welcome.",
+      "link": ""
+    },
+    {
+      "title": "PTO General Meeting",
+      "date": "2027-04-05",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "Hear what's coming up, share ideas, and meet the board. Everyone is welcome.",
+      "link": ""
+    },
+    {
+      "title": "PTO General Meeting",
+      "date": "2027-05-03",
+      "time": "18:00",
+      "endTime": "19:00",
+      "location": "Western Hills Elementary",
+      "category": "meeting",
+      "description": "The last meeting of the school year. Everyone is welcome.",
+      "link": ""
+    },
+    { "title": "Fun Run", "date": "", "category": "fundraiser", "description": "Our biggest fundraiser of the year. Students run laps while family and friends cheer them on and pledge support." },
+    { "title": "Book Fair", "date": "", "category": "students", "description": "Students and families shop for books, and every purchase adds books to our classrooms and library." },
+    { "title": "Movie Night", "date": "", "category": "family", "description": "Bring a blanket and join other Western Hills families for a movie at school." },
+    { "title": "Restaurant Nights", "date": "", "category": "fundraiser", "description": "Eat out at a participating local restaurant and a share of the bill comes back to the PTO." },
+    { "title": "Fine Arts Day / Day of Science", "date": "", "category": "students", "description": "A day of hands-on art and science activities for every grade." },
+    { "title": "Teacher Appreciation Week", "date": "", "category": "staff", "description": "A week of treats, notes and surprises to thank our teachers and staff." },
+    { "title": "Kindergarten Round-Up", "date": "", "category": "family", "description": "Families of next year's kindergartners visit Western Hills and meet the PTO." },
+    { "title": "Seniors Come Home", "date": "", "category": "students", "description": "Graduating seniors who once attended Western Hills walk the halls one more time." },
+    { "title": "Field Day", "date": "", "category": "students", "description": "A day of outdoor games and activities to close out the school year." }
+  ]
+}

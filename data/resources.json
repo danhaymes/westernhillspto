@@ -1,0 +1,9 @@
+{
+  "_howTo": "Upload a file to /files and set url to 'files/name.pdf', or paste a Google Drive link. Leave url blank to show 'Coming soon'.",
+  "documents": [
+    { "title": "PTO Bylaws", "kind": "Governance", "url": "" },
+    { "title": "2026–27 Budget", "kind": "Finances", "url": "" },
+    { "title": "Meeting Minutes", "kind": "Meetings", "url": "" },
+    { "title": "Volunteer Guidelines", "kind": "Volunteering", "url": "" }
+  ]
+}

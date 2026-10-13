@@ -1,0 +1,23 @@
+{
+  "name": "Western Hills Elementary PTO",
+  "schoolYear": "2026–27",
+  "email": "westernhillspto@gmail.com",
+  "facebook": "https://www.facebook.com/WesternHillsPTO",
+  "instagram": "",
+  "school": {
+    "name": "Western Hills Elementary",
+    "address": "600 39th Street, West Des Moines, IA 50265",
+    "website": "https://westernhills.wdmcs.org/",
+    "district": "West Des Moines Community Schools",
+    "districtWebsite": "https://www.wdmcs.org/"
+  },
+  "links": {
+    "donate": "",
+    "volunteerForm": "",
+    "spiritWear": ""
+  },
+  "spiritWear": {
+    "status": "between-sales",
+    "message": "Spirit wear sales pop up a few times a year. Watch our Facebook page for the next one."
+  }
+}

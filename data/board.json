@@ -1,0 +1,12 @@
+{
+  "schoolYear": "2026–27",
+  "board": [
+    { "role": "Co-Presidents", "names": ["Dan Haymes", "Ariadna Arias"] },
+    { "role": "Co-Vice Presidents", "names": ["Molly Lage", "Maddie Lopez"] },
+    { "role": "Co-Secretaries", "names": ["Kim Haymes", "Christina Quinn"] },
+    { "role": "Co-Treasurers", "names": ["Chandra Keairnes", "Nate Summers"] },
+    { "role": "Teacher Liaison", "names": ["Cammy White"] },
+    { "role": "Principal", "names": ["Tyson Heuton"] },
+    { "role": "Parent At-Large", "names": ["Jessica Mason", "Megan Thole"] }
+  ]
+}
