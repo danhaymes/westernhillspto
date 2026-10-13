@@ -1,50 +1,174 @@
 {
-  "_howTo": "Leave chairs as [] to show 'Chair needed'. Set draft to false once the description has been approved.",
+  "_howTo": "Leave chairs as [] to show 'Chair needed' (use this for TBD). Set draft to false once the description has been approved.",
   "categories": [
-    { "id": "family", "name": "Family & Community Events", "blurb": "The events that bring Western Hills families together." },
-    { "id": "fundraising", "name": "Fundraising", "blurb": "How the PTO raises the money that funds everything else." },
-    { "id": "students", "name": "Student Programs", "blurb": "Extras that make the school day richer for students." },
-    { "id": "staff", "name": "Teacher & Classroom Support", "blurb": "Taking care of the people who take care of our kids." },
-    { "id": "communications", "name": "Communications", "blurb": "Keeping everyone in the loop." }
+    {
+      "id": "family",
+      "name": "Family & Community Events",
+      "blurb": "The events that bring Western Hills families together."
+    },
+    {
+      "id": "fundraising",
+      "name": "Fundraising",
+      "blurb": "How the PTO raises the money that funds everything else."
+    },
+    {
+      "id": "students",
+      "name": "Student Programs",
+      "blurb": "Extras that make the school day richer for students."
+    },
+    {
+      "id": "staff",
+      "name": "Teacher & Classroom Support",
+      "blurb": "Taking care of the people who take care of our kids."
+    },
+    {
+      "id": "communications",
+      "name": "Communications",
+      "blurb": "Keeping everyone in the loop."
+    }
   ],
   "committees": [
-    { "name": "Back to School Bash", "category": "family", "chairs": ["PTO Executive Committee"], "draft": true,
-      "description": "Kicks off the school year with an evening for families to reconnect, meet new classmates and get excited for the year ahead." },
-    { "name": "Movie Night", "category": "family", "chairs": ["Susan Kopriva", "Ashley Miner"], "draft": true,
-      "description": "Plans our family movie nights at school: picking the movie, setting up and running concessions." },
-    { "name": "Kindergarten Round-Up", "category": "family", "chairs": ["PTO Executive Committee"], "draft": true,
-      "description": "Welcomes incoming kindergarten families, answers their questions and introduces them to the PTO." },
-    { "name": "Seniors Come Home", "category": "family", "chairs": ["Teresa O'Connell", "Mary Graeber"], "draft": true,
-      "description": "Organizes the visit when graduating seniors who once attended Western Hills come back to walk the halls." },
-    { "name": "Fun Run", "category": "fundraising", "chairs": ["Susan Kopriva", "Randy Hutchison"], "draft": true,
-      "description": "Runs our biggest fundraiser, from pledges and prizes to race-day volunteers." },
-    { "name": "Restaurant Nights", "category": "fundraising", "chairs": ["Dan Haymes"], "draft": true,
-      "description": "Partners with local restaurants that give back a portion of sales on PTO nights." },
-    { "name": "Spirit Store", "category": "fundraising", "chairs": ["Heidi Hennig"], "draft": true,
-      "description": "Designs and sells Western Hills spirit wear through pop-up sales during the year." },
-    { "name": "Book Fairs", "category": "fundraising", "chairs": ["Kathleen Babbitt", "Emily Cunarro"], "draft": true,
-      "description": "Sets up and staffs the book fairs that put books in students' hands and raise funds for the library." },
-    { "name": "Field Day", "category": "students", "chairs": ["Randy Hutchison"], "draft": true,
-      "description": "Plans the stations, schedule and volunteers for the end-of-year field day." },
-    { "name": "Fine Arts Day / Day of Science", "category": "students", "chairs": ["Steph Brown (Lead)", "Chandra Keairnes", "Sarah Sartin", "Sabrina McEachern", "Esperanza Pintor Martinez"], "draft": true,
-      "description": "Brings in artists, scientists and hands-on activities for a special day of learning." },
-    { "name": "Challenge of the Books", "category": "students", "chairs": ["Kathleen Babbitt", "Emily Cunarro"], "draft": true,
-      "description": "Supports the student reading competition, helping teams prepare and celebrating their effort." },
-    { "name": "Adopt a Garden", "category": "students", "chairs": ["Becky Sinram"], "draft": true,
-      "description": "Coordinates families who help care for the school gardens through the seasons." },
-    { "name": "School Supplies", "category": "students", "chairs": ["Katey Lindaman"], "draft": true,
-      "description": "Organizes school supply kits so families can order everything on the list at once." },
-    { "name": "Yearbook", "category": "students", "chairs": [], "draft": true,
-      "description": "Collects photos from across the year and puts together the Western Hills yearbook." },
-    { "name": "Teacher Appreciation", "category": "staff", "chairs": ["Alyssa DeHaan"], "draft": true,
-      "description": "Plans Teacher Appreciation Week and other ways to thank our teachers and staff during the year." },
-    { "name": "Hospitality", "category": "staff", "chairs": ["Michelle Ruvalcaba"], "draft": true,
-      "description": "Provides meals and treats for staff during conferences and other busy times." },
-    { "name": "Homeroom Parents", "category": "staff", "chairs": [], "draft": true,
-      "description": "Connects a parent volunteer with each classroom to help with parties and share PTO news." },
-    { "name": "Social Media", "category": "communications", "chairs": ["Susan Kopriva"], "draft": true,
-      "description": "Keeps our Facebook page up to date with news, reminders and photos." },
-    { "name": "School Sign", "category": "communications", "chairs": ["Kathleen Babbitt"], "draft": true,
-      "description": "Updates the sign out front with upcoming events and reminders." }
+    {
+      "name": "Back to School Bash",
+      "category": "family",
+      "chairs": [
+        "PTO Executive Committee"
+      ],
+      "draft": true,
+      "description": "Kicks off the school year with an evening for families to reconnect, meet new classmates and get excited for the year ahead."
+    },
+    {
+      "name": "Movie Night",
+      "category": "family",
+      "chairs": [
+        "Susan Kopriva",
+        "Ashley Miner"
+      ],
+      "draft": true,
+      "description": "Plans our family movie nights at school: picking the movie, setting up and running concessions."
+    },
+    {
+      "name": "Kindergarten Round-Up",
+      "category": "family",
+      "chairs": [
+        "PTO Executive Committee"
+      ],
+      "draft": true,
+      "description": "Welcomes incoming kindergarten families, answers their questions and introduces them to the PTO."
+    },
+    {
+      "name": "Seniors Come Home",
+      "category": "family",
+      "chairs": [],
+      "draft": true,
+      "description": "Organizes the visit when graduating seniors who once attended Western Hills come back to walk the halls."
+    },
+    {
+      "name": "Fun Run",
+      "category": "fundraising",
+      "chairs": [
+        "Susan Kopriva"
+      ],
+      "draft": true,
+      "description": "Runs our biggest fundraiser, from pledges and prizes to race-day volunteers."
+    },
+    {
+      "name": "Spirit Store",
+      "category": "fundraising",
+      "chairs": [
+        "Heidi Hennig"
+      ],
+      "draft": true,
+      "description": "Designs and sells Western Hills spirit wear through pop-up sales during the year."
+    },
+    {
+      "name": "Book Fairs",
+      "category": "fundraising",
+      "chairs": [
+        "Kathleen Babbitt",
+        "Liz Lyons"
+      ],
+      "draft": true,
+      "description": "Sets up and staffs the book fairs that put books in students' hands and raise funds for the library."
+    },
+    {
+      "name": "Field Day",
+      "category": "students",
+      "chairs": [
+        "Randy Hutchison"
+      ],
+      "draft": true,
+      "description": "Plans the stations, schedule and volunteers for the end-of-year field day."
+    },
+    {
+      "name": "Fine Arts Day / Day of Science",
+      "category": "students",
+      "chairs": [
+        "Janice Beard"
+      ],
+      "draft": true,
+      "description": "Brings in artists, scientists and hands-on activities for a special day of learning."
+    },
+    {
+      "name": "Adopt a Garden",
+      "category": "students",
+      "chairs": [
+        "Becky Sinram"
+      ],
+      "draft": true,
+      "description": "Coordinates families who help care for the school gardens through the seasons."
+    },
+    {
+      "name": "School Supplies",
+      "category": "students",
+      "chairs": [
+        "Katey Lindaman"
+      ],
+      "draft": true,
+      "description": "Organizes school supply kits so families can order everything on the list at once."
+    },
+    {
+      "name": "School Yearbook",
+      "category": "students",
+      "chairs": [],
+      "draft": true,
+      "description": "Collects photos from across the year and puts together the Western Hills yearbook."
+    },
+    {
+      "name": "Teacher Appreciation",
+      "category": "staff",
+      "chairs": [
+        "Alyssa DeHaan"
+      ],
+      "draft": true,
+      "description": "Plans Teacher Appreciation Week and other ways to thank our teachers and staff during the year."
+    },
+    {
+      "name": "Hospitality",
+      "category": "staff",
+      "chairs": [
+        "Michelle Ruvalcaba-Stein"
+      ],
+      "draft": true,
+      "description": "Provides meals and treats for staff during conferences and other busy times."
+    },
+    {
+      "name": "Social Media",
+      "category": "communications",
+      "chairs": [
+        "Susan Kopriva"
+      ],
+      "draft": true,
+      "description": "Keeps our Facebook page up to date with news, reminders and photos."
+    },
+    {
+      "name": "School Sign",
+      "category": "communications",
+      "chairs": [
+        "Kathleen Babbitt"
+      ],
+      "draft": true,
+      "description": "Updates the sign out front with upcoming events and reminders."
+    }
   ]
 }
